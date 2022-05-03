@@ -1,0 +1,114 @@
+    
+1.What is difference in Overloading and Over riding
+Ans : Method overloading and overriding both comes under the oops concept of polymorphism.
+
+Method overloading: It is achieved by giving functions same name but different return type and parameters. 
+It is compile time polymorphism.
+It also increses the readability of a program.
+
+Method overriding: It is achieved when a sub class has the same method as declared in the parent class.
+It is run time polymorphism.
+It should have the same name ad signature as of the method in its parent class.
+There must be an is-a relationship.
+ 
+2.If both the functions are statis can we over ride
+Ans: No, it is not possible. Method overriding is based on dynamic bindin at run time but in the case of 
+static methods they are bonded using static binding at compile time.
+
+3. Diffference bew Final , Finally and Finalize
+Ans : Final, Finally and Finalize are keywords that are used in exception handiling in java. 
+Final : It is an access modifier used to apply restrictions on a class or method.
+Finally : It is a block used in java exception handling to excecute the impotant code whether exception occurs or not.
+Finalize : It is a method used to clean up processing just before the object garabage collection.
+
+4.What are maker Interfaces
+Ans : It is an interface which has no methods or constraints inside it. 
+It provides run time type information about the object.
+
+5.What is Singleton class
+Ans : Singleton is a design pattern that comes under the creation design pattern.
+Singleton class is used to control object creation by limiting the number of objects to only one. 
+Since there is only one Singleton instance, any instance fields of a Singleton will occur only once per class, just like static fields. 
+
+6.What is the underlying Data structure for Arraylist and Linkedlist
+Ans : Underlying data structure of ArrayList is array
+Underlying data structure of LinkedList is Doubly Linked List.
+
+7.What is hash collitition
+Ans : It is a situation where two or more key objects produce the same final hash value and hence point to the same bucket location or array index.
+
+8.What are lambda Expressions
+Ans :  Lambda expression is an inline code that implements a functional interface without creating a concrete or anonymous class.
+ A lambda expression is basically an anonymous method.
+
+You can use lambda expression to run thread.
+Java lambda expression can be used in the collection framework. It provides efficient and concise way to iterate, filter and fetch data.
+It enable us to treat functionality as method argument and pass a block of code around.
+
+9.Whats is functional interface
+Ans : A functional interface is an interface that contains only one abstract method.
+
+10.What are optional classes in Java 8
+Ans : It is a public final class and used to deal with NullPointerException in Java application.
+It provides methods which are used to check the presence of value for particular variable.
+eg : toString(),get() etc.
+
+11.Whats is factory design pattern and Adapter and difference bew them
+Ans : Factory Method Pattern : allows the sub-classes to choose the type of objects to create. It comes under creation design pattern.
+
+Adapter design pattern : Used to provide the interface according to client requirement while using the services of a class with a different interface. 
+It allows two or more previously incompatible objects to interact.
+It allows reusability of existing functionality.
+
+12.What are Solid principles
+Ans : SOLID principles are an object-oriented approach that are applied to software structure design.
+It is an acronym that stands for Single Responsibility Principle (SRP), Open-Closed Principle (OCP), 
+Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP), Dependency Inversion Principle (DIP)
+
+ It also ensures that the software is modular, easy to understand, debug, and refactor. 
+
+13. What does @component and @scan do in Sprinboot annaotation
+Ans : @Component annotation is a class-level annotation that can not be used on the method level. 
+If you define any class with @Component annotation that should be known to the spring application context.
+
+We use the @ComponentScan annotation along with the @Configuration annotation to specify the packages that we want to be scanned.
+ @ComponentScan without arguments tells Spring to scan the current package and all of its sub-packages.
+
+14.Whats is the Diference bew JPA , Hibernate and ORM
+Ans : 
+ORM: Object Relational Mapping is a process of converting the data from Object oriented language to relational DB and vice versa.
+Hibernate: Its the implementation of above concept.
+JPA: Its the one step above ORM. 
+Its high level API and specification so that different ORM tools can implement so that it provides the flexibility to developer to change the implementation from one ORM to another 
+
+15.What is indexing in Database
+Ans : Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed.
+ It is a data structure technique which is used to quickly locate and access the data in a database. 
+
+16.What are 4 types of Drivers in Jdbc
+Ans : 
+1. JDBC-ODBC bridge driver
+2. Native-API driver - partially java driver
+3. Network Protocol driver - fully java driver
+4. Thin driver - fully java driver
+
+17.What is difference between @component and @bean and @service
+Ans : 
+@Bean : It is used to explicitly declare a single bean, rather than letting Spring do it automatically. 
+@Component : If any class is annotated with @Component it will be automatically detect by using classpath scan.
+@Service : Used to indicate that they're holding the business logic. 
+
+18. What is difference bew SOAP and restful services techinically
+Ans : SOAP is a protocol, whereas REST is an architectural style.
+SOAP requires more bandwidth, whereas REST requires fewer resources.
+REST calls can be cached, while SOAP-based calls cannot be cached
+
+19 . Difference in POST and PUT
+Ans : PUT method is used to update resource available on the server.
+You can use it to make a new resource or overwrite an existing one. 
+
+POST is a method that is supported by HTTP and depicts that a web server accepts the data included in the body of the message, which is requested. 
+POST is often used by WWW to send user generated data to the web server or when you upload file.
+
+20.IS react uni directional or Bi directional
+Ans : React is unidirectional.
